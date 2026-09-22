@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    min-height: 200vh;
+    margin: 0;
+}
+
+
+.navbar {
+    height: 12vh;
+    width: 100vw;
+    padding: 3vh 5vw;
+}
+
+.logo {
+    display: inline-block;
+    width: 21vw;
+    vertical-align: middle;
+}
+
+.logo img {
+    width: 8vw;
+    height: 15vh;
+
+}
+
+.links {
+    display: inline-block;
+    width: 40vw;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 3vh;
+    margin: 1vw;
+}
+
+.username {
+    display: inline-block;
+    width: 9vw;
+    padding: 1.5vh 1vw;
+    border: 1px solid;
+    border-radius: 5vh;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 10vw;
+    background-color: aqua;
+    color:blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.left {
+    display: inline-block;
+    width: 50vw;
+    margin-top: 5vw;
+    vertical-align: middle;
+}
+
+.left h1 {
+    font-size: 7vh;
+    margin-left: 5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+}
+
+.left h1 span {
+    color:aqua;
+}
+
+.left p {
+    width: 40vw;
+    margin-left: 5vw;
+    font-size: 4vh;
+    font-family: 'Times New Roman', Times, serif;
+    color:#777;
+    margin-top: 1vh;
+    
+}
+
+.left button {
+    margin-top: 4vh;
+    margin-left: 5vw;
+    padding: 3vh 4vw;
+    background-color: #18a5dc;
+    color:white;
+    border: none;
+    border-radius: 4vh;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: transform 0.3s ease
+    
+    
+}
+
+.right {
+    display: inline-block;
+    width: 35vw;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.right img:hover {
+    animation: orbit 0.5s linear;
+}
+
+
+.left button:hover{
+    transform: scale(1.5) rotate(-3deg);
+    
+}
+
+@keyframes orbit {
+     from{
+      transform: rotate(0deg);
+     }
+     to {
+      transform: rotate(360deg);
+     }
+}
+
